@@ -46,7 +46,7 @@ jobs:
       - name: Set the date
         id: date
         run: |
-          echo "date=$(date)" >> $GITHUB_OUTPUTS
+          echo "date=$(date)" >> $GITHUB_OUTPUT
           
       - name: Get the date
         run: |
