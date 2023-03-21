@@ -50,5 +50,4 @@ jobs:
           
       - name: Get the date
         run: |
-          echo "Received date: ${{ steps.date.outputs.date }}
-        
+          echo "Received date: ${{ steps.date.outputs.date }}"    
